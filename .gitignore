@@ -1,0 +1,6 @@
+.env
+*.json
+pipeline_outputs/
+demos/
+.venv
+__pycache__/
