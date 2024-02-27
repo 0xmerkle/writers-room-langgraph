@@ -21,7 +21,6 @@ if st.button("Submit"):
     st.write(f"Topic submitted: {topic}")
     st.session_state["result"] = run_agent_pipeline(topic)
 
-# Set up the sidebar with different pages
 st.sidebar.title("Navigation")
 page = st.sidebar.radio(
     "Go to", ("Tweets", "Newsletter Draft", "LinkedIn Posts", "Visualization")
